@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.1 (Python 3.13.4 on win32)" generated="2025-06-25T15:32:19.666828" rpa="false" schemaversion="5">
+<suite id="s1" name="Hello" source="C:\QAx\projetos\mark85-robot-express\hello.robot">
+<test id="s1-t1" name="Deve mostrar mensagem de boas vindas" line="6">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-06-25T15:32:19.694683" level="INFO">Hello Robot Framework</msg>
+<arg>Hello Robot Framework</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-06-25T15:32:19.694543" elapsed="0.000194"/>
+</kw>
+<kw name="Meu Log" owner="lib">
+<msg time="2025-06-25T15:32:19.695114" level="INFO">Olá Robot Framework</msg>
+<arg>Olá Robot Framework</arg>
+<status status="PASS" start="2025-06-25T15:32:19.695016" elapsed="0.000137"/>
+</kw>
+<status status="PASS" start="2025-06-25T15:32:19.693905" elapsed="0.001526"/>
+</test>
+<doc>Exemplo em robot framework</doc>
+<status status="PASS" start="2025-06-25T15:32:19.668150" elapsed="0.028463"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Hello" id="s1" pass="1" fail="0" skip="0">Hello</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
