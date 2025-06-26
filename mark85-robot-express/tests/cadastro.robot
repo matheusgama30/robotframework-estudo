@@ -1,18 +1,21 @@
 *** Settings ***
 
 Documentation     Cenários de testes do cadastro de usuários
-Library    Browser
-Library    FakerLibrary
+Resource    ../resources/base.robot
+# Library    FakerLibrary
 
 *** Test Cases ***
 
 Deve poder cadastrar um usuário com sucesso
-    ${nome}           FakerLibrary.Name
-    ${email}          FakerLibrary.Free Email
+    ${nome}           Set Variable    MGama
+    ${email}          Set Variable    MGama@gmail.com
     ${senha}          Set Variable    123456
 
-    New Browser       browser=chromium                 headless=false
-    New Page          http:localhost:3000/signup
+    Remover usuário do banco de dados    ${email}
+
+    Start Session
+
+    Go To    url=http://localhost:3000/signup
 
     # check points - pontos de verificação se estou passando pelo fluxo correto
     Wait For Elements State        css=h1            visible    5                    #espera até 5 segundos para o elemento estar visível

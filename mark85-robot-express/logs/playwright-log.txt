@@ -1,57 +1,59 @@
-{"level":30,"time":"2025-06-26T14:14:32.727Z","pid":23728,"hostname":"Matheus","msg":"Listening on 127.0.0.1:60195"}
-(node:23728) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-06-26T18:14:00.041Z","pid":23980,"hostname":"Matheus","msg":"Listening on 127.0.0.1:50570"}
+(node:23980) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-06-26T14:14:33.215Z","pid":23728,"hostname":"Matheus","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-06-26T14:14:33.425Z","pid":23728,"hostname":"Matheus","msg":"Adding browser to stack: chromium, version: 138.0.7204.15"}
-{"level":30,"time":"2025-06-26T14:14:33.425Z","pid":23728,"hostname":"Matheus","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-06-26T14:14:33.425Z","pid":23728,"hostname":"Matheus","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-06-26T14:14:33.431Z","pid":23728,"hostname":"Matheus","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-06-26T14:14:33.432Z","pid":23728,"hostname":"Matheus","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-06-26T14:14:33.446Z","pid":23728,"hostname":"Matheus","msg":"Changed active context"}
-{"level":30,"time":"2025-06-26T14:14:33.641Z","pid":23728,"hostname":"Matheus","msg":"Video path: undefined"}
-{"level":30,"time":"2025-06-26T14:14:33.641Z","pid":23728,"hostname":"Matheus","msg":"Changed active page"}
-{"level":30,"time":"2025-06-26T14:14:34.025Z","pid":23728,"hostname":"Matheus","msg":"End of node method newPage"}
-{"level":30,"time":"2025-06-26T14:14:34.030Z","pid":23728,"hostname":"Matheus","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-06-26T14:14:34.030Z","pid":23728,"hostname":"Matheus","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
-{"level":30,"time":"2025-06-26T14:14:34.057Z","pid":23728,"hostname":"Matheus","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-06-26T14:14:34.060Z","pid":23728,"hostname":"Matheus","msg":"Start of node method getText"}
-{"level":30,"time":"2025-06-26T14:14:34.060Z","pid":23728,"hostname":"Matheus","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
-{"level":30,"time":"2025-06-26T14:14:34.078Z","pid":23728,"hostname":"Matheus","msg":"Retrieved text for element css=h1 containing Faça seu cadastro"}
-{"level":30,"time":"2025-06-26T14:14:34.078Z","pid":23728,"hostname":"Matheus","msg":"End of node method getText"}
-{"level":30,"time":"2025-06-26T14:14:34.081Z","pid":23728,"hostname":"Matheus","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-06-26T14:14:34.082Z","pid":23728,"hostname":"Matheus","msg":"Strict mode is enabled, find Locator with id=name in page."}
-{"level":30,"time":"2025-06-26T14:14:34.093Z","pid":23728,"hostname":"Matheus","msg":"End of node method fillText"}
-{"level":30,"time":"2025-06-26T14:14:34.096Z","pid":23728,"hostname":"Matheus","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-06-26T14:14:34.096Z","pid":23728,"hostname":"Matheus","msg":"Strict mode is enabled, find Locator with css=#email in page."}
-{"level":30,"time":"2025-06-26T14:14:34.106Z","pid":23728,"hostname":"Matheus","msg":"End of node method fillText"}
-{"level":30,"time":"2025-06-26T14:14:34.110Z","pid":23728,"hostname":"Matheus","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-06-26T14:14:34.110Z","pid":23728,"hostname":"Matheus","msg":"Strict mode is enabled, find Locator with css=#password in page."}
-{"level":30,"time":"2025-06-26T14:14:34.118Z","pid":23728,"hostname":"Matheus","msg":"End of node method fillText"}
-{"level":30,"time":"2025-06-26T14:14:34.121Z","pid":23728,"hostname":"Matheus","msg":"Start of node method click"}
-{"level":30,"time":"2025-06-26T14:14:34.121Z","pid":23728,"hostname":"Matheus","msg":"Strict mode is enabled, find Locator with id=buttonSignup in page."}
-{"level":30,"time":"2025-06-26T14:14:34.153Z","pid":23728,"hostname":"Matheus","msg":"End of node method click"}
-{"level":30,"time":"2025-06-26T14:14:34.157Z","pid":23728,"hostname":"Matheus","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-06-26T14:14:34.157Z","pid":23728,"hostname":"Matheus","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
-{"level":30,"time":"2025-06-26T14:14:34.258Z","pid":23728,"hostname":"Matheus","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-06-26T14:14:34.261Z","pid":23728,"hostname":"Matheus","msg":"Start of node method getText"}
-{"level":30,"time":"2025-06-26T14:14:34.262Z","pid":23728,"hostname":"Matheus","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
-{"level":30,"time":"2025-06-26T14:14:34.270Z","pid":23728,"hostname":"Matheus","msg":"Retrieved text for element css=.notice p containing Boas vindas ao Mark85, o seu gerenciador de tarefas."}
-{"level":30,"time":"2025-06-26T14:14:34.270Z","pid":23728,"hostname":"Matheus","msg":"End of node method getText"}
-{"level":30,"time":"2025-06-26T14:14:34.275Z","pid":23728,"hostname":"Matheus","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-26T14:14:34.276Z","pid":23728,"hostname":"Matheus","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-26T14:14:34.278Z","pid":23728,"hostname":"Matheus","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-26T14:14:34.279Z","pid":23728,"hostname":"Matheus","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-26T14:14:34.280Z","pid":23728,"hostname":"Matheus","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-26T14:14:34.282Z","pid":23728,"hostname":"Matheus","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-26T14:14:34.284Z","pid":23728,"hostname":"Matheus","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-26T14:14:34.285Z","pid":23728,"hostname":"Matheus","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-26T14:14:34.287Z","pid":23728,"hostname":"Matheus","msg":"Changed active context"}
-{"level":30,"time":"2025-06-26T14:14:34.287Z","pid":23728,"hostname":"Matheus","msg":"Changing current active page: page=22752463-6758-4040-9965-dfe552a781a0"}
-{"level":30,"time":"2025-06-26T14:14:34.287Z","pid":23728,"hostname":"Matheus","msg":"Changed active page"}
-{"level":30,"time":"2025-06-26T14:14:34.290Z","pid":23728,"hostname":"Matheus","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-06-26T14:14:34.302Z","pid":23728,"hostname":"Matheus","msg":"Removed page=d56a2def-b2d5-4c79-a798-3c3a13f6ffa8 from context=4eb4d8bb-5034-41a2-a78e-5dc241594afe page stack"}
-{"level":30,"time":"2025-06-26T14:14:34.321Z","pid":23728,"hostname":"Matheus","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-06-26T14:14:34.327Z","pid":23728,"hostname":"Matheus","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-26T14:14:34.327Z","pid":23728,"hostname":"Matheus","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-26T14:14:34.361Z","pid":23728,"hostname":"Matheus","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-06-26T14:14:34.473Z","pid":23728,"hostname":"Matheus","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-06-26T18:14:00.542Z","pid":23980,"hostname":"Matheus","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-06-26T18:14:00.732Z","pid":23980,"hostname":"Matheus","msg":"Adding browser to stack: chromium, version: 138.0.7204.15"}
+{"level":30,"time":"2025-06-26T18:14:00.733Z","pid":23980,"hostname":"Matheus","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-06-26T18:14:00.733Z","pid":23980,"hostname":"Matheus","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-06-26T18:14:00.740Z","pid":23980,"hostname":"Matheus","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-06-26T18:14:00.740Z","pid":23980,"hostname":"Matheus","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-26T18:14:00.753Z","pid":23980,"hostname":"Matheus","msg":"Changed active context"}
+{"level":30,"time":"2025-06-26T18:14:00.950Z","pid":23980,"hostname":"Matheus","msg":"Video path: undefined"}
+{"level":30,"time":"2025-06-26T18:14:00.950Z","pid":23980,"hostname":"Matheus","msg":"Changed active page"}
+{"level":30,"time":"2025-06-26T18:14:01.316Z","pid":23980,"hostname":"Matheus","msg":"End of node method newPage"}
+{"level":30,"time":"2025-06-26T18:14:01.322Z","pid":23980,"hostname":"Matheus","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-06-26T18:14:01.352Z","pid":23980,"hostname":"Matheus","msg":"End of node method goTo"}
+{"level":30,"time":"2025-06-26T18:14:01.356Z","pid":23980,"hostname":"Matheus","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-06-26T18:14:01.356Z","pid":23980,"hostname":"Matheus","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-06-26T18:14:01.379Z","pid":23980,"hostname":"Matheus","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-06-26T18:14:01.383Z","pid":23980,"hostname":"Matheus","msg":"Start of node method getText"}
+{"level":30,"time":"2025-06-26T18:14:01.383Z","pid":23980,"hostname":"Matheus","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-06-26T18:14:01.400Z","pid":23980,"hostname":"Matheus","msg":"Retrieved text for element css=h1 containing Faça seu cadastro"}
+{"level":30,"time":"2025-06-26T18:14:01.400Z","pid":23980,"hostname":"Matheus","msg":"End of node method getText"}
+{"level":30,"time":"2025-06-26T18:14:01.404Z","pid":23980,"hostname":"Matheus","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-26T18:14:01.404Z","pid":23980,"hostname":"Matheus","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2025-06-26T18:14:01.415Z","pid":23980,"hostname":"Matheus","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-26T18:14:01.419Z","pid":23980,"hostname":"Matheus","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-26T18:14:01.419Z","pid":23980,"hostname":"Matheus","msg":"Strict mode is enabled, find Locator with css=#email in page."}
+{"level":30,"time":"2025-06-26T18:14:01.430Z","pid":23980,"hostname":"Matheus","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-26T18:14:01.433Z","pid":23980,"hostname":"Matheus","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-26T18:14:01.433Z","pid":23980,"hostname":"Matheus","msg":"Strict mode is enabled, find Locator with css=#password in page."}
+{"level":30,"time":"2025-06-26T18:14:01.440Z","pid":23980,"hostname":"Matheus","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-26T18:14:01.444Z","pid":23980,"hostname":"Matheus","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-26T18:14:01.444Z","pid":23980,"hostname":"Matheus","msg":"Strict mode is enabled, find Locator with id=buttonSignup in page."}
+{"level":30,"time":"2025-06-26T18:14:01.474Z","pid":23980,"hostname":"Matheus","msg":"End of node method click"}
+{"level":30,"time":"2025-06-26T18:14:01.477Z","pid":23980,"hostname":"Matheus","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-06-26T18:14:01.477Z","pid":23980,"hostname":"Matheus","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2025-06-26T18:14:01.568Z","pid":23980,"hostname":"Matheus","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-06-26T18:14:01.572Z","pid":23980,"hostname":"Matheus","msg":"Start of node method getText"}
+{"level":30,"time":"2025-06-26T18:14:01.572Z","pid":23980,"hostname":"Matheus","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2025-06-26T18:14:01.581Z","pid":23980,"hostname":"Matheus","msg":"Retrieved text for element css=.notice p containing Boas vindas ao Mark85, o seu gerenciador de tarefas."}
+{"level":30,"time":"2025-06-26T18:14:01.581Z","pid":23980,"hostname":"Matheus","msg":"End of node method getText"}
+{"level":30,"time":"2025-06-26T18:14:01.585Z","pid":23980,"hostname":"Matheus","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-26T18:14:01.587Z","pid":23980,"hostname":"Matheus","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-26T18:14:01.588Z","pid":23980,"hostname":"Matheus","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-26T18:14:01.590Z","pid":23980,"hostname":"Matheus","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-26T18:14:01.591Z","pid":23980,"hostname":"Matheus","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-26T18:14:01.592Z","pid":23980,"hostname":"Matheus","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-26T18:14:01.594Z","pid":23980,"hostname":"Matheus","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-26T18:14:01.595Z","pid":23980,"hostname":"Matheus","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-26T18:14:01.597Z","pid":23980,"hostname":"Matheus","msg":"Changed active context"}
+{"level":30,"time":"2025-06-26T18:14:01.597Z","pid":23980,"hostname":"Matheus","msg":"Changing current active page: page=958c66d9-6867-415d-8185-cb49e186c46d"}
+{"level":30,"time":"2025-06-26T18:14:01.597Z","pid":23980,"hostname":"Matheus","msg":"Changed active page"}
+{"level":30,"time":"2025-06-26T18:14:01.600Z","pid":23980,"hostname":"Matheus","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-06-26T18:14:01.611Z","pid":23980,"hostname":"Matheus","msg":"Removed page=b6a523de-74c0-487a-9bae-95cc74256879 from context=e4b6587a-2af0-460d-9d06-0919f4500807 page stack"}
+{"level":30,"time":"2025-06-26T18:14:01.629Z","pid":23980,"hostname":"Matheus","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-06-26T18:14:01.635Z","pid":23980,"hostname":"Matheus","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-26T18:14:01.635Z","pid":23980,"hostname":"Matheus","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-26T18:14:01.670Z","pid":23980,"hostname":"Matheus","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-06-26T18:14:01.781Z","pid":23980,"hostname":"Matheus","msg":"End of node method closeAllBrowsers"}
