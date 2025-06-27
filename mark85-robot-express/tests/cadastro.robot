@@ -1,7 +1,7 @@
 *** Settings ***
 
 Documentation     Cenários de testes do cadastro de usuários
-Resource    ../resources/base.robot
+Resource    ../resources/base.resource
 # Library    FakerLibrary
 
 Test Setup       Start Session
@@ -25,21 +25,11 @@ Deve poder cadastrar um usuário com sucesso
 
     Remover usuário do banco de dados    ${usuario}[email]
 
+    Pagina de cadastro
+    Submeter formulario de cadastro    ${usuario}
+    Mensagem de boas vindas    Boas vindas ao Mark85, o seu gerenciador de tarefas.
 
-    Go To    url=http://localhost:3000/signup
 
-    # check points - pontos de verificação se estou passando pelo fluxo correto
-    Wait For Elements State        css=h1            visible    5                    #espera até 5 segundos para o elemento estar visível
-    Get Text                       css=h1            equal      Faça seu cadastro    # verifica se o texto é igual ao esperado
-
-    Fill Text    id=name           ${usuario}[nome]
-    Fill Text    css=#email        ${usuario}[email]
-    Fill Text    css=#password     ${usuario}[senha]
-    
-    Click        id=buttonSignup
-
-    Wait For Elements State    css=.notice p    visible    5
-    Get Text                   css=.notice p    equal      Boas vindas ao Mark85, o seu gerenciador de tarefas.
 
 Não deve permitir cadastrar um usuário com email já existente
     [Tags]    dup     # tag para identificar o teste de duplicação, pode ser usado para filtrar testes
@@ -52,17 +42,7 @@ Não deve permitir cadastrar um usuário com email já existente
     Remover usuário do banco de dados   ${usuario}[email]
     Inserir usuário no banco de dados   ${usuario}
 
-    Go To    url=http://localhost:3000/signup
-
-    # check points - pontos de verificação se estou passando pelo fluxo correto
-    Wait For Elements State        css=h1            visible    5                    #espera até 5 segundos para o elemento estar visível
-    Get Text                       css=h1            equal      Faça seu cadastro    # verifica se o texto é igual ao esperado
+    Pagina de cadastro
+    Submeter formulario de cadastro    ${usuario}
+    Mensagem de boas vindas    Oops! Já existe uma conta com o e-mail informado.
     
-    Fill Text    id=name           ${usuario}[nome]
-    Fill Text    css=#email        ${usuario}[email]
-    Fill Text    css=#password     ${usuario}[senha]
-
-    Click        id=buttonSignup
-
-    Wait For Elements State    css=.notice p    visible    5
-    Get Text                   css=.notice p    equal      Oops! Já existe uma conta com o e-mail informado.
