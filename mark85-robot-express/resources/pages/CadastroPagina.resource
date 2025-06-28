@@ -32,4 +32,10 @@ Mensagem de boas vindas
     Wait For Elements State    ${elemento}    visible    5
     Get Text                   ${elemento}    equal      ${texto_esperado}
 
-    
+
+alerta de campos obrigatórios
+    [Arguments]    ${texto_esperado}
+
+    wait for elements state    css=.alert-error >> text=${texto_esperado}    
+    ...    visible    5     #Espera até 5 segundos para o elemento estar visível, depois verifica se o texto é igual ao esperado
+

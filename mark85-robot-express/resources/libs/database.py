@@ -1,9 +1,15 @@
 from robot.api.deco import keyword
-
 from pymongo import MongoClient
+from dotenv import load_dotenv
+import os
 
-Client = MongoClient("mongodb+srv://gama:gama87@cluster0.xmw1vbs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+# Carrega variáveis do .env
+load_dotenv()
 
+# Lê a URI do Mongo a partir da variável de ambiente
+mongo_uri = os.getenv("MONGO_URI")
+
+Client = MongoClient(mongo_uri)
 db = Client["markdb"]
 
 @keyword("Remover usuário do banco de dados")
@@ -14,12 +20,6 @@ def remove_user(email):
 
 @keyword("Inserir usuário no banco de dados")
 def insert_user(usuario):
-    # doc ={
-    #     "email": email,
-    #     "nome": nome,
-    #     "senha": senha
-    # }
-
     users = db['users']
     users.insert_one(usuario)
     print(usuario)
