@@ -86,6 +86,43 @@ Não deve cadastrar um novo usuarioa com a senha curta    # teste de senha curta
 
 
 
+Não dever cadastrar um novo usuarioa com a senha de 1 dígito
+    [Tags]    senha_curta    
+    [Template]    #template de testes, permite reutilizar o mesmo teste com diferentes dados
+    Senha Curta    1            #Keyword que será executado com os dados fornecidos
+
+Não dever cadastrar um novo usuarioa com a senha de 2 dígito
+    [Tags]    senha_curta    
+    [Template]    #template de testes, permite reutilizar o mesmo teste com diferentes dados
+    Senha Curta    12            #Keyword que será executado com os dados fornecidos
+
+Não dever cadastrar um novo usuarioa com a senha de 3 dígito
+    [Tags]    senha_curta    
+    [Template]    #template de testes, permite reutilizar o mesmo teste com diferentes dados
+    Senha Curta    123            #Keyword que será executado com os dados fornecidos
+
+Não dever cadastrar um novo usuarioa com a senha de 4 dígito
+    [Tags]    senha_curta    
+    [Template]    #template de testes, permite reutilizar o mesmo teste com diferentes dados
+    Senha Curta    1234            #Keyword que será executado com os dados fornecidos
+
+Não dever cadastrar um novo usuarioa com a senha de 5 dígito
+    [Tags]    senha_curta    
+    [Template]    #template de testes, permite reutilizar o mesmo teste com diferentes dados
+    Senha Curta    12345            #Keyword que será executado com os dados fornecidos
+
+*** Keywords ***    #template de testes, keywords são funções que podem ser reutilizadas em vários testes
+Senha Curta
+    [Arguments]    ${senhaCurta}
+
+    ${usuario}    Create Dictionary    nome=matheus    email=matheus@gmail.com    senha=${senhaCurta}  #criando um dicionário com campos vazios, Empty é uma variável que representa um valor vazio
+
+    Pagina de cadastro
+    Submeter formulario de cadastro    ${usuario}
+
+    alerta de campos obrigatórios      Informe uma senha com pelo menos 6 digitos
+
+
 
 
 
