@@ -16,10 +16,10 @@ Test Teardown    Take Screenshot
 *** Test Cases ***
 
 Deve poder cadastrar um usuário com sucesso
-    
+    [Tags]        cadastro_sucesso
     ${usuario}       Create Dictionary
-    ...    nome=MGama    
-    ...    email=MGama@gmail.com    
+    ...    nome=matheus gama    
+    ...    email=matheus12345@gmail.com    
     ...    senha=123456
     
 

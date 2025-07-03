@@ -10,3 +10,7 @@ submeter página de login
     Fill Text    css=input[placeholder=Senha]    ${usuario}[senha]
 
     Click        id=buttonLogin
+
+Verificar mensagem de boas vindas
+    [Arguments]    ${mensagem}
+    
